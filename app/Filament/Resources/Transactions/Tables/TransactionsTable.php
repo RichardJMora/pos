@@ -26,9 +26,9 @@ class TransactionsTable
                     ->sortable()
                     ->searchable(),
 
-                TextColumn::make('customer.name')
+                TextColumn::make('customer.customer_name')
                     ->label('Customer')
-                    ->placeholder('Walk-in')
+                    
                     ->searchable(),
 
                 TextColumn::make('status')
